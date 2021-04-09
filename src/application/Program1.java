@@ -9,7 +9,7 @@ public class Program1 {
 	public static void main(String[] args) {
 		File path = new File("c:\\teste\\in.txt");
 
-
+		//LENDO ARQUIVOS
 		try(BufferedReader br = new BufferedReader(new FileReader(path))) {
 
 			String line = br.readLine();
